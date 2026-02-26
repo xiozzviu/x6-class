@@ -1,14 +1,16 @@
 import { useState } from "react";
+// import { motion } from "motion/react"
+import Navbar from "./components/Navbar";
+import Hero from "./pages/Hero";
+import About from "./pages/About";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 className="text-red-500 text-2xl">test</h1>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
+      <h1 className="text-white">test</h1>
+      <Navbar />
+      <Hero />
+      <About />
     </>
   );
 }
