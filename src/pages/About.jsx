@@ -2,6 +2,8 @@ import siswa from "../data/siswa.json";
 import Card from "../components/Card";
 
 export default function About() {
+  const waliKelas = siswa.find((item) => item.role === "wali");
+  const siswaBiasa = siswa.filter((item) => item.role !== "wali");
   return (
     <div className="mt-24 mb-24 px-4 pb-60 max-w-7xl mx-auto">
       <div className="text-center mb-12">
@@ -10,8 +12,19 @@ export default function About() {
           Meet the members of our class.
         </p>
       </div>
+      {/* <div className="flex justify-center"> */}
+      {waliKelas && (
+        <Card
+          key={waliKelas.id}
+          name={waliKelas.name}
+          image={`${import.meta.env.BASE_URL}${waliKelas.image}`}
+          hueA={waliKelas.hueA}
+          hueB={waliKelas.hueB}
+        />
+      )}
+      {/* </div> */}
       <div id="about" className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        {siswa.map((item, i) => (
+        {siswaBiasa.map((item, i) => (
           <Card
             key={item.id}
             i={i}

@@ -31,14 +31,13 @@ export default function Card({ image, name, hueA, hueB, i }) {
       <div style={{ ...splash, background }} />
 
       <motion.div id="card-siswa" style={card} variants={cardVariants}>
-        <img src={image} alt={name} style={imageStyle} />
+        <img src={`img/${image}`} alt={name} style={imageStyle} />
         <h2 style={nameStyle}>{name}</h2>
       </motion.div>
     </motion.div>
   );
 }
 
-/* Styles */
 const cardContainer = {
   overflow: "hidden",
   display: "flex",
@@ -51,12 +50,18 @@ const cardContainer = {
 
 const splash = {
   position: "absolute",
-  inset: 0,
+  top: "50%",
+  left: "50%",
+  width: 500,
+  height: 450,
+  transform: "translate(-50%, -50%)",
+  zIndex: 0,
   clipPath: `path("M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z")`,
 };
 
 const card = {
-  width: 240,
+  zIndex: 1,
+  width: 200,
   height: 300,
   display: "flex",
   flexDirection: "column",

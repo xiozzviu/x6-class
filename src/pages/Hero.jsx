@@ -3,10 +3,14 @@ import headerBanner from "../assets/hero.jpeg";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden text-white">
+    <section
+      id="hero"
+      className="relative min-h-screen overflow-hidden text-white"
+    >
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${headerBanner})` }}
+        id="hero"
       />
       <motion.div
         initial={{ backgroundPosition: "0% 0%" }}

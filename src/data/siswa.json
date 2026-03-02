@@ -1,8 +1,16 @@
 [
   {
+    "id": 0,
+    "name": "Zainul Qusta, S.P.d.",
+    "image": "1-Zainul Qusta, S.P.d.jpg",
+    "hueA": 340,
+    "hueB": 10,
+    "role": "wali"
+  },
+  {
     "id": 1,
     "name": "Adrien Maheswara I P",
-    "image": "test.jpg",
+    "image": "1-Adrien-Maheswara-I-P.jpg",
     "hueA": 340,
     "hueB": 10
   },
