@@ -31,7 +31,12 @@ export default function Card({ image, name, hueA, hueB, i }) {
       <div style={{ ...splash, background }} />
 
       <motion.div id="card-siswa" style={card} variants={cardVariants}>
-        <img src={`img/${image}`} alt={name} style={imageStyle} />
+        <img
+          src={`${import.meta.env.BASE_URL}img/${image}`}
+          alt={name}
+          style={imageStyle}
+          loading="lazy"
+        />
         <h2 style={nameStyle}>{name}</h2>
       </motion.div>
     </motion.div>
@@ -45,7 +50,7 @@ const cardContainer = {
   alignItems: "center",
   position: "relative",
   paddingTop: 20,
-  marginBottom: -120,
+  marginBottom: -90,
 };
 
 const splash = {
@@ -84,6 +89,6 @@ const imageStyle = {
 };
 
 const nameStyle = {
-  fontSize: 24,
+  fontSize: 18,
   fontWeight: 600,
 };

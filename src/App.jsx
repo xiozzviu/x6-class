@@ -1,8 +1,9 @@
 import { useState } from "react";
-// import { motion } from "motion/react"
 import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Contact />
+      <Footer />
     </>
   );
 }

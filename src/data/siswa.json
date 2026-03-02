@@ -9,57 +9,246 @@
   },
   {
     "id": 1,
-    "name": "Adrien Maheswara I P",
+    "name": "Adrien Maheswara I. P.",
     "image": "1-Adrien-Maheswara-I-P.jpg",
-    "hueA": 340,
-    "hueB": 10
+    "hueA": 160,
+    "hueB": 240
   },
   {
     "id": 2,
-    "name": "Pashya",
-    "image": "test.jpg",
-    "hueA": 200,
-    "hueB": 260
+    "name": "Alifah Chairunisya",
+    "image": "2-Alifah-Chairunisya.jpg",
+    "hueA": 150,
+    "hueB": 300
   },
   {
     "id": 3,
-    "name": "Octavian",
-    "image": "test.jpg",
+    "name": "Almira Nada S. R.",
+    "image": "3-Almira-Nada-S-R.jpg",
     "hueA": 150,
     "hueB": 300
   },
   {
     "id": 4,
-    "name": "Octavian",
-    "image": "test.jpg",
-    "hueA": 340,
-    "hueB": 10
+    "name": "Andira Adha K. W.",
+    "image": "4-Andira-Adha-K-W.jpg",
+    "hueA": 150,
+    "hueB": 300
   },
   {
     "id": 5,
-    "name": "Adrien Maheswara I P",
-    "image": "test.jpg",
+    "name": "Annisa Oktavia S.",
+    "image": "5-Annisa Oktavia S.jpg",
     "hueA": 340,
     "hueB": 10
   },
   {
     "id": 6,
-    "name": "Pashya",
-    "image": "test.jpg",
-    "hueA": 200,
-    "hueB": 260
+    "name": "Arya Wira C. A.",
+    "image": "6-Arya Wira C A.jpg",
+    "hueA": 160,
+    "hueB": 240
   },
   {
     "id": 7,
-    "name": "Octavian",
-    "image": "test.jpg",
+    "name": "Azhar Mauli R.",
+    "image": "7-Azhar Mauli R.jpg",
     "hueA": 340,
     "hueB": 10
   },
   {
     "id": 8,
-    "name": "Octavian",
-    "image": "test.jpg",
+    "name": "Dhiva Renata P.",
+    "image": "8-Dhiva Renata P.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 9,
+    "name": "Faharani Rizqi R.",
+    "image": "9-Faharani Rizqi R.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 10,
+    "name": "Faydra Laila Z.",
+    "image": "10-Faydra Laila Z.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 11,
+    "name": "Felicia Ayu S.",
+    "image": "11-Felicia Ayu S.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 12,
+    "name": "Ghania Irfaichi N. A.",
+    "image": "12-Ghania Irfaichi N A.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 13,
+    "name": "Kania Aulia N.",
+    "image": "13-Kania Aulia N.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 14,
+    "name": "Kenzae Naladikara",
+    "image": "14-Kenzae Naladikara.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 15,
+    "name": "Kirana Ashifa N.",
+    "image": "15-Kirana Ashifa N.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 16,
+    "name": "Marvel Rainhat T.",
+    "image": "16-Marvel Rainhat T.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 17,
+    "name": "Moch Alfarabi",
+    "image": "17-Moch Alfarabi.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 18,
+    "name": "Myiesha Athia F.",
+    "image": "18-Myiesha Athia F.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 19,
+    "name": "Neysa Vany H.",
+    "image": "19-Neysa Vany H.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 20,
+    "name": "R Evan Zadah S.",
+    "image": "20-R Evan Zadah S.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 21,
+    "name": "Radithya Putra R.",
+    "image": "21-Radithya Putra R.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 22,
+    "name": "Rafa Fabregas T. A. E.",
+    "image": "22-Rafa Fabregas T A E.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 23,
+    "name": "Rafa Satya P. R.",
+    "image": "23-Rafa Satya P R.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 24,
+    "name": "Raihan Jivalu P. P.",
+    "image": "24-Raihan Jivalu P P.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 25,
+    "name": "Reazky Akbar P. S.",
+    "image": "25-Reazky Akbar P S.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 26,
+    "name": "Revalina Putri R.",
+    "image": "26-Revalina Putri R.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 27,
+    "name": "Risca Valleria P. S.",
+    "image": "27-Risca Valleria P S.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 28,
+    "name": "Rofi Fairus D.",
+    "image": "28-Rofi Fairus D.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 29,
+    "name": "Salsabillah Nadia A.",
+    "image": "29-Salsabillah Nadia A.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 30,
+    "name": "Selly Julyani",
+    "image": "30-Selly Julyani.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 31,
+    "name": "Shinta Aira P. A.",
+    "image": "31-Shinta Aira P A.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 32,
+    "name": "Syafa Azzahra",
+    "image": "32-Syafa Azzahra.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 33,
+    "name": "Syahlo Alicia B.",
+    "image": "33-Syahlo Alicia B.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 34,
+    "name": "Talitha Kamila P. P.",
+    "image": "34-Talitha Kamila P P.jpg",
+    "hueA": 340,
+    "hueB": 10
+  },
+  {
+    "id": 35,
+    "name": "Zahrotul Maulidia",
+    "image": "35-Zahrotul Maulidia.jpg",
     "hueA": 340,
     "hueB": 10
   }

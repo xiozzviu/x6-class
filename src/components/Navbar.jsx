@@ -73,7 +73,7 @@ export default function Navbar() {
               {links.map((link) => (
                 <motion.a
                   key={link}
-                  href="#"
+                  href={`#${link.toLowerCase()}`}
                   whileTap={{ scale: 0.95 }}
                   className="text-lg font-medium text-gray-700"
                 >
