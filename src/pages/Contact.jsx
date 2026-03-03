@@ -34,6 +34,24 @@ export default function Contact() {
       target: "_blank",
       color: "bg-gradient-to-r from-green-500 to-emerald-500",
     },
+    {
+      id: 4,
+      title: "Ngl",
+      image: "bannerngl.png",
+      desc: "Kirimkan Kami pesan rahasia di NGL-! Hanya ingin menyapa? Disini!",
+      href: "https://ngl.link/wacimcenam.archives",
+      target: "_blank",
+      color: "bg-gradient-to-r from-pink-500 to-orange-500",
+    },
+    {
+      id: 5,
+      title: "Spotify Archives",
+      image: "bannerspotify.png",
+      desc: "Lihat playlist khusus kami di Spotify! Suasana yang kami ciptakan melalui musik.",
+      href: "https://open.spotify.com/user/31m3hldcq2gfbyqjdy7tsvhklhma?nd=1&dlsi=5eb1ceb01cf74625",
+      target: "_blank",
+      color: "bg-gradient-to-r from-emerald-700 to-green-700",
+    },
   ];
 
   useLayoutEffect(() => {
@@ -56,6 +74,7 @@ export default function Contact() {
       ref={containerRef}
       style={{ height: scrollDistance + window.innerHeight }}
       className="relative"
+      id="contact"
     >
       <div className="sticky top-0 h-screen overflow-hidden flex flex-col pt-20">
         <div className="text-center mb-10 px-6">
@@ -81,7 +100,7 @@ export default function Contact() {
                   <img
                     src={`img/${item.image}`}
                     alt={item.title}
-                    className="w-full h-64 rounded-xl object-cover border-8"
+                    className="w-full h-64 rounded-xl object-cover object-top-left border-2"
                   />
                 </a>
 

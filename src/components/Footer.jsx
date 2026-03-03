@@ -5,7 +5,14 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h2 className="text-xl font-semibold text-white">Web X-6 Smasa</h2>
           <p className="text-sm text-slate-400">
-            Crafted & developed by @vyanzll
+            Crafted & developed by{" "}
+            <a
+              href="https://github.com/Pashyaaaa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @vyanzll
+            </a>
           </p>
         </div>
 
@@ -20,7 +27,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/Pashyaaaa"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
@@ -29,7 +36,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:octavianpashya20@gmail.com"
             className="hover:text-white transition"
           >
             Email
